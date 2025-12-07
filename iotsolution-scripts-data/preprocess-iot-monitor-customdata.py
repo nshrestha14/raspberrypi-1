@@ -1,6 +1,5 @@
-# Developed by: Sebastian Maurice, PhD
-# Date: 2021-01-18 
-# Toronto, Ontario Canada
+# Developed by: Sebastian Maurice, PhD Date: 2021-01-18 Toronto, Ontario 
+# Canada
 
 # TML python library
 import maadstml
@@ -170,7 +169,7 @@ latlong=lat:long'
      identifier = "IoT device performance and failures"
 
      # if dataage - use:dataage_utcoffset_timetype
-     preprocesslogic='anomprob,trend,avg'
+     preprocesslogic = 'MIN,MAX,COUNT,VARIANCE,OUTLIERS,ANOMPROB'
 
      pathtotmlattrs='oem=n/a,lat=n/a,long=n/a,location=n/a,identifier=n/a'          
      try:
